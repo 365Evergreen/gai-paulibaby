@@ -345,7 +345,7 @@ export default function App() {
           </div>
           <div>
             <h1 className="text-lg font-black tracking-tight text-swiss-ink flex items-center gap-2 leading-none font-syne uppercase">
-              APEX_DESIGN STUDIO
+              Paulibaby
               <span className="text-[9px] bg-swiss-ink text-white font-black border-2 border-swiss-ink px-1.5 py-0.5 uppercase font-mono tracking-widest">
                 AI_WYSIWYG
               </span>
