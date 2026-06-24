@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --font-syne: "Syne", sans-serif;
+
+  --color-swiss-bg: #F8F7F4;
+  --color-swiss-ink: #18181A;
+  --color-swiss-accent: #E5572E;
+}
+
+/* Custom scrollbars for a cleaner UI */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #18181a;
+  border: 1px solid #f8f7f4;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e5572e;
+}
+
+/* Active drag-over overlay styling */
+.drag-overlay {
+  outline: 2px dashed #e5572e;
+  outline-offset: -2px;
+}
+

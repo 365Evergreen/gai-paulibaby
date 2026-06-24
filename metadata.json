@@ -1,0 +1,6 @@
+{
+  "name": "AI WYSIWYG Editor",
+  "description": "An intuitive visual editor that generates clean React/Tailwind code with real-time AI design feedback, WCAG accessibility audits, Python-driven automated code review, and real-time collaboration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
